@@ -1,6 +1,6 @@
 # ![GA Logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Express Routes Calculator 🧮
 
-Your task for this lab is create a webserver calculator using [Express](https://expressjs.com/) routes. Your calculator should handle **GET** (`app.get()`) requests to `/add`, `/subtract`, `/multiply` and `/divide`. You should use *URL parameters* to handle requests to your calculator.
+Your task is to create a webserver calculator using [Express](https://expressjs.com/) routes. Your calculator should handle **GET** (`app.get()`) requests to `/add`, `/subtract`, `/multiply` and `/divide`. You should use *URL parameters* to handle requests to your calculator.
 
 Example using URL parameters:
 
