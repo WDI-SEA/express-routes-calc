@@ -23,14 +23,15 @@ app.get("/divide/:x/:y", (req, res) => {
   });
 
 // Bonus:
+// (couldn't quite figure it out 😅)
 
-app.get("/*/", (req, res) => {
-    let printout = '';
-    for (let key in req.query) {
-        printout += key + ": " + req.query[key] + "<br />";
-    }
-    res.send("Here's what they sent: <br /><br />" + printout);
-  })
+// app.get("/*/", (req, res) => {
+//     let printout = '';
+//     for (let key in req.query) {
+//         printout += key + ": " + req.query[key] + "<br />";
+//     }
+//     res.send("Here's what they sent: <br /><br />" + printout);
+//   })
 
 // Listener function:
 app.listen(port, function() {
