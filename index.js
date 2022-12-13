@@ -23,20 +23,20 @@ app.get('/*', (req, res) => {
 		case 'add':
 			// res.send(`${arithmetic}`)
 
-			let result = c.add(...nums)
-			res.send(`${result}`)
+			let addResult = c.add(...nums)
+			res.send(`${addResult}`)
 			break
 		case 'subtract':
-			res.send(`${arithmetic}`)
-			// res.send(`${c.subtract(...args)}    `)
+			let subtractResult = c.subtract(...nums)
+			res.send(`${subtractResult}`)
 			break
 		case 'multiply':
-			res.send(`${arithmetic}`)
-			// res.send(`${c.multiply(...args)}    `)
+			let multiplyResult = c.multiply(...nums)
+			res.send(`${multiplyResult}`)
 			break
 		case 'divide':
-			res.send(`${arithmetic}`)
-			// res.send(`${c.divide(...args)}    `)
+			let divideResult = c.divide(...nums)
+			res.send(`${divideResult}`)
 			break
 	}
 })
