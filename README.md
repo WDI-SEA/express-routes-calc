@@ -26,6 +26,7 @@ app.get('/:input', (req, res) => {
 * run `npm init` to initialize a node project
 * run `npm i express` to install the required packages
 * `touch index.js` to create the main entry point for your express app
+* git ignore your node modules
 * use `nodemon` to run your express app
 
 Before writing your routes, set up a simple express app with a `hello world` route to test that everything is working.
