@@ -3,7 +3,7 @@ const express = require("express")
 // invoke variable to create instance of app
 const app = express()
 // set a port number
-// const PORT = 8000
+const PORT = 3000
 
 // ROUTES
 // home route
@@ -21,4 +21,7 @@ app.get ("/multiply/:x/:y", (req, res) => {
 })
 app.get ("/divide/:x/:y", (req, res) => {
     res.send(req.params.x) / (req.params.y)
+})
+app.listen(PORT, () => {
+    console.log(`That's port ${PORT}`)
 })
