@@ -9,10 +9,9 @@ app.get("/", (req, res) => {
 
 //  add route
 app.get("/add/:x/:y", (req, res) => {
-    let num1 = req.params.x
-    let num2 = req.params.y
-    let sum += num1
-    sum += num2
+    let num1 = parseInt(req.params.x)
+    let num2 = parseInt(req.params.y)
+    let sum = num1 + num2
     res.send(`The sum of ${req.params.x} and ${req.params.y} is ${sum}`)
 })
 
